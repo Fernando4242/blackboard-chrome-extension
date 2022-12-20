@@ -1,0 +1,11 @@
+{
+  "name": "Blackboard Extension",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {},
+  "description": "Test extensions for blackboard",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
